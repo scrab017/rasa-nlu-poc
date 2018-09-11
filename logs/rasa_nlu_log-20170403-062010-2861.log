@@ -1,0 +1,1 @@
+{"confidence": 0.9105547816705463, "entities": [{"end": 18, "entity": "target", "start": 8, "value": "200 george"}, {"end": 34, "entity": "target", "start": 26, "value": "overview"}], "intent": "navigation", "text": "show me 200 george street overview"}

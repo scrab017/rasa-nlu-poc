@@ -1,0 +1,2 @@
+{"confidence": 0.8628304784536477, "entities": [{"end": 25, "entity": "building_name", "start": 8, "value": "200 george street"}, {"end": 34, "entity": "target", "start": 26, "value": "overview"}], "intent": "navigation", "text": "show me 200 george street overview"}
+{"confidence": 0.8799936524838428, "entities": [{"end": 25, "entity": "building_name", "start": 8, "value": "200 george street"}, {"end": 35, "entity": "target", "start": 26, "value": "equipment"}], "intent": "navigation", "text": "show me 200 george street equipment view"}

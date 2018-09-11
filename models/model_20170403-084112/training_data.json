@@ -1,0 +1,646 @@
+{
+  "rasa_nlu_data": {
+    "entity_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "can you take me to 200 george street overview", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 19, 
+            "end": 36, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }, 
+          {
+            "start": 37, 
+            "end": 45, 
+            "value": "overview", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "can you take me to 200 george street energy view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 19, 
+            "end": 36, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }, 
+          {
+            "start": 37, 
+            "end": 43, 
+            "value": "overview", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "take me to 200 george street equipment view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 29, 
+            "end": 38, 
+            "value": "equipment", 
+            "entity": "target"
+          }, 
+          {
+            "start": 11, 
+            "end": 28, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "take me to traditional view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 11, 
+            "end": 22, 
+            "value": "traditional", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "i want old view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "old", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "i want new view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "new", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "can you please take me to energy view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 26, 
+            "end": 32, 
+            "value": "energy", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "can you show me equipment view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "equipment", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "can you show me 200 george street overview", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 33, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }, 
+          {
+            "start": 34, 
+            "end": 42, 
+            "value": "overview", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "i want to see 200 george street equipment view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 31, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }, 
+          {
+            "start": 32, 
+            "end": 41, 
+            "value": "equipment", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the overview of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 12, 
+            "end": 20, 
+            "value": "overview", 
+            "entity": "target"
+          }, 
+          {
+            "start": 24, 
+            "end": 41, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "take me to the overview page of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 23, 
+            "value": "overview", 
+            "entity": "target"
+          }, 
+          {
+            "start": 32, 
+            "end": 49, 
+            "value": "200 george street", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "can you take me to the energy page for 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 23, 
+            "end": 29, 
+            "value": "energy", 
+            "entity": "target"
+          }, 
+          {
+            "start": 39, 
+            "end": 56, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "could you please show me the equipments page of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 29, 
+            "end": 39, 
+            "value": "equipments", 
+            "entity": "target"
+          }, 
+          {
+            "start": 48, 
+            "end": 65, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "i want to see the overview of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 26, 
+            "value": "overview", 
+            "entity": "target"
+          }, 
+          {
+            "start": 30, 
+            "end": 47, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "can you show me the overview page of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 20, 
+            "end": 28, 
+            "value": "overview", 
+            "entity": "target"
+          }, 
+          {
+            "start": 37, 
+            "end": 54, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the energy view of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 12, 
+            "end": 18, 
+            "value": "energy", 
+            "entity": "target"
+          }, 
+          {
+            "start": 27, 
+            "end": 44, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "i want to see the energy view of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 24, 
+            "value": "energy", 
+            "entity": "target"
+          }, 
+          {
+            "start": 33, 
+            "end": 50, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }
+    ], 
+    "intent_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "can you take me to 200 george street overview", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 19, 
+            "end": 36, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }, 
+          {
+            "start": 37, 
+            "end": 45, 
+            "value": "overview", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "can you take me to 200 george street energy view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 19, 
+            "end": 36, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }, 
+          {
+            "start": 37, 
+            "end": 43, 
+            "value": "overview", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "take me to 200 george street equipment view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 29, 
+            "end": 38, 
+            "value": "equipment", 
+            "entity": "target"
+          }, 
+          {
+            "start": 11, 
+            "end": 28, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "take me to traditional view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 11, 
+            "end": 22, 
+            "value": "traditional", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "i want old view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "old", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "i want new view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "new", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "can you please take me to energy view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 26, 
+            "end": 32, 
+            "value": "energy", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "can you show me equipment view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 25, 
+            "value": "equipment", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "can you show me 200 george street overview", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 16, 
+            "end": 33, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }, 
+          {
+            "start": 34, 
+            "end": 42, 
+            "value": "overview", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "i want to see 200 george street equipment view", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 14, 
+            "end": 31, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }, 
+          {
+            "start": 32, 
+            "end": 41, 
+            "value": "equipment", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the overview of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 12, 
+            "end": 20, 
+            "value": "overview", 
+            "entity": "target"
+          }, 
+          {
+            "start": 24, 
+            "end": 41, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "take me to the overview page of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 15, 
+            "end": 23, 
+            "value": "overview", 
+            "entity": "target"
+          }, 
+          {
+            "start": 32, 
+            "end": 49, 
+            "value": "200 george street", 
+            "entity": "target"
+          }
+        ]
+      }, 
+      {
+        "text": "can you take me to the energy page for 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 23, 
+            "end": 29, 
+            "value": "energy", 
+            "entity": "target"
+          }, 
+          {
+            "start": 39, 
+            "end": 56, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "could you please show me the equipments page of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 29, 
+            "end": 39, 
+            "value": "equipments", 
+            "entity": "target"
+          }, 
+          {
+            "start": 48, 
+            "end": 65, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "i want to see the overview of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 26, 
+            "value": "overview", 
+            "entity": "target"
+          }, 
+          {
+            "start": 30, 
+            "end": 47, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "can you show me the overview page of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 20, 
+            "end": 28, 
+            "value": "overview", 
+            "entity": "target"
+          }, 
+          {
+            "start": 37, 
+            "end": 54, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "show me the energy view of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 12, 
+            "end": 18, 
+            "value": "energy", 
+            "entity": "target"
+          }, 
+          {
+            "start": 27, 
+            "end": 44, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }, 
+      {
+        "text": "i want to see the energy view of 200 george street", 
+        "intent": "navigation", 
+        "entities": [
+          {
+            "start": 18, 
+            "end": 24, 
+            "value": "energy", 
+            "entity": "target"
+          }, 
+          {
+            "start": 33, 
+            "end": 50, 
+            "value": "200 george street", 
+            "entity": "building_name"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{"confidence": 0.9105547816705463, "entities": [{"end": 18, "entity": "target", "start": 8, "value": "200 george"}, {"end": 34, "entity": "target", "start": 26, "value": "overview"}], "intent": "navigation", "text": "show me 200 george street overview"}
+{"confidence": 0.8668023022341084, "entities": [], "intent": "greet", "text": "hi"}
+{"confidence": 0.8520354437584735, "entities": [], "intent": "greet", "text": "hello"}
+{"confidence": 0.9690550168323286, "entities": [], "intent": "greet", "text": "hey"}
+{"confidence": 0.9422374164541228, "entities": [{"end": 21, "entity": "target", "start": 11, "value": "200 george"}, {"end": 35, "entity": "target", "start": 29, "value": "overview"}], "intent": "navigation", "text": "take me to 200 george street energy view"}
+{"confidence": 0.9267779868531781, "entities": [{"end": 21, "entity": "target", "start": 11, "value": "200 george"}], "intent": "navigation", "text": "take me to 200 george street"}

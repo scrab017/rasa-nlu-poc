@@ -1,0 +1,231 @@
+[
+    {
+        "entities": [
+            {
+                "start": 8, 
+                "end": 25, 
+                "value": "200 george street", 
+                "entity": "building_name"
+            }, 
+            {
+                "start": 26, 
+                "end": 34, 
+                "value": "overview", 
+                "entity": "target"
+            }
+        ], 
+        "intent": {
+            "confidence": 0.86283047845364769, 
+            "name": "navigation"
+        }, 
+        "text": "show me 200 george street overview", 
+        "intent_ranking": [
+            {
+                "confidence": 0.86283047845364769, 
+                "name": "navigation"
+            }, 
+            {
+                "confidence": 0.13716952154635198, 
+                "name": "greet"
+            }
+        ]
+    }, 
+    {
+        "entities": [
+            {
+                "start": 11, 
+                "end": 28, 
+                "value": "200 george street", 
+                "entity": "building_name"
+            }, 
+            {
+                "start": 29, 
+                "end": 37, 
+                "value": "overview", 
+                "entity": "target"
+            }
+        ], 
+        "intent": {
+            "confidence": 0.89857458631406217, 
+            "name": "navigation"
+        }, 
+        "text": "take me to 200 george street overview page", 
+        "intent_ranking": [
+            {
+                "confidence": 0.89857458631406217, 
+                "name": "navigation"
+            }, 
+            {
+                "confidence": 0.10142541368593801, 
+                "name": "greet"
+            }
+        ]
+    }, 
+    {
+        "entities": [
+            {
+                "start": 7, 
+                "end": 9, 
+                "value": "to", 
+                "entity": "building_name"
+            }, 
+            {
+                "start": 18, 
+                "end": 26, 
+                "value": "overview", 
+                "entity": "target"
+            }, 
+            {
+                "start": 35, 
+                "end": 52, 
+                "value": "200 george street", 
+                "entity": "building_name"
+            }
+        ], 
+        "intent": {
+            "confidence": 0.88476256619400695, 
+            "name": "navigation"
+        }, 
+        "text": "i want to see the overview page of 200 george street", 
+        "intent_ranking": [
+            {
+                "confidence": 0.88476256619400695, 
+                "name": "navigation"
+            }, 
+            {
+                "confidence": 0.11523743380599284, 
+                "name": "greet"
+            }
+        ]
+    }, 
+    {
+        "entities": [
+            {
+                "start": 11, 
+                "end": 28, 
+                "value": "200 george street", 
+                "entity": "building_name"
+            }, 
+            {
+                "start": 29, 
+                "end": 35, 
+                "value": "overview", 
+                "entity": "target"
+            }
+        ], 
+        "intent": {
+            "confidence": 0.88356411292098858, 
+            "name": "navigation"
+        }, 
+        "text": "take me to 200 george street energy page", 
+        "intent_ranking": [
+            {
+                "confidence": 0.88356411292098858, 
+                "name": "navigation"
+            }, 
+            {
+                "confidence": 0.11643588707901147, 
+                "name": "greet"
+            }
+        ]
+    }, 
+    {
+        "entities": [
+            {
+                "start": 11, 
+                "end": 28, 
+                "value": "200 george street", 
+                "entity": "building_name"
+            }, 
+            {
+                "start": 29, 
+                "end": 38, 
+                "value": "equipment", 
+                "entity": "target"
+            }
+        ], 
+        "intent": {
+            "confidence": 0.88305611250693095, 
+            "name": "navigation"
+        }, 
+        "text": "take me to 200 george street equipment page", 
+        "intent_ranking": [
+            {
+                "confidence": 0.88305611250693095, 
+                "name": "navigation"
+            }, 
+            {
+                "confidence": 0.116943887493069, 
+                "name": "greet"
+            }
+        ]
+    }, 
+    {
+        "entities": [
+            {
+                "start": 12, 
+                "end": 21, 
+                "value": "equipment", 
+                "entity": "target"
+            }, 
+            {
+                "start": 30, 
+                "end": 47, 
+                "value": "200 george street", 
+                "entity": "building_name"
+            }
+        ], 
+        "intent": {
+            "confidence": 0.87569615886988639, 
+            "name": "navigation"
+        }, 
+        "text": "show me the equipment page of 200 george street", 
+        "intent_ranking": [
+            {
+                "confidence": 0.87569615886988639, 
+                "name": "navigation"
+            }, 
+            {
+                "confidence": 0.12430384113011364, 
+                "name": "greet"
+            }
+        ]
+    }, 
+    {
+        "entities": [
+            {
+                "start": 7, 
+                "end": 9, 
+                "value": "to", 
+                "entity": "building_name"
+            }, 
+            {
+                "start": 18, 
+                "end": 24, 
+                "value": "overview", 
+                "entity": "target"
+            }, 
+            {
+                "start": 33, 
+                "end": 50, 
+                "value": "200 george street", 
+                "entity": "building_name"
+            }
+        ], 
+        "intent": {
+            "confidence": 0.87481102956259726, 
+            "name": "navigation"
+        }, 
+        "text": "i want to see the energy page of 200 george street", 
+        "intent_ranking": [
+            {
+                "confidence": 0.87481102956259726, 
+                "name": "navigation"
+            }, 
+            {
+                "confidence": 0.12518897043740265, 
+                "name": "greet"
+            }
+        ]
+    }
+]
